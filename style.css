@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(77, 77, 77);
+}
+
+
+
+.container-one {
+    background-color: rgb(221, 221, 221);
+    max-width: 1000px;
+    height: 938px;
+}
+
+.section {
+    display: flex;
+}
+
+.left-part {
+    width: 950px;
+}
+
+.section-one-logo {
+    font-family: 'Cookie', cursive;
+}
+
+.section-one-logo-link {
+    text-decoration: none;
+}
+
+.section-one-logo-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    padding: 30px;
+    font-weight: 400;
+    font-size: 50px;
+    color: black;
+}
+
+.section-one-main-content {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.section-one-main-content-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    width: 453px;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(199, 199, 199);
+}
+
+.section-one-main-content-text {
+    margin: 25px 0 0 246px;
+    width: 460px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.section-two-content {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.section-two-btn-link {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: rgb(68, 68, 68);
+    padding: 25px 60px;
+    border-radius: 10px;
+    transition: background-color 0.2s linear;
+}
+
+.section-two-btn-link:hover {
+    background-color: rgb(136, 136, 136) ;
+}
+
+.section-two-music {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    border: solid 2px black;
+    border-radius: 25px;
+}
+
+.section-two-text-under-music {
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.right-part-img {
+    position: absolute;
+    width: 927px;
+    height: 938px;
+}
+
+
+
+
+.container-two {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: rgb(221, 221, 221);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo-link {
+    text-decoration: none;
+}
+
+.nav-logo-text {
+    font-family: 'Cookie', cursive;
+    color: black;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.nav-menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: color 0.2s linear;
+}
+
+.nav-menu-link:hover {
+    color: rgb(165, 165, 165);
+}
+
+.section-two-title {
+    border-top: solid 3px black ;
+    padding-top: 5px;
+    margin-top: 300px;
+}
+
+.section-two-title-text {
+    border-top: solid 1px rgb(221, 221, 221);
+    padding-top: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(32, 32, 32);
+    font-size: 50px;
+    font-weight: 900;
+    border-bottom: 3px rgb(204, 204, 204) solid;
+    width: 351px;
+}
+
+.container-three {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.section-two-under-text-title,
+.section-three-title-text {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.section-two-text-under {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.section-two-carts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: rgb(211, 211, 211);
+    border: solid 5px rgb(197, 197, 197);
+}
+
+.cart-img {
+    width: 320px;
+    height: 540px;
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.cart-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 20px 10px;
+}
+
+.back-body {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.back-body-link {
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    font-size: 45px;
+    border: solid 2px rgb(133, 133, 133);
+    background-color: rgb(105, 105, 105);
+    padding: 15px 25px;
+    border-radius: 20px;
+    opacity: 0.6;
+    transition: background-color 0.2s linear;
+}
+
+.back-body-link:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.section-three {
+    margin-top: 200px;
+    padding-bottom: 300px;
+}
+
+.section-three-title {
+    border-top: solid 3px black ;
+    padding-top: 60px;
+}
+
+.section-three-title-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(32, 32, 32);
+    font-size: 50px;
+    font-weight: 900;
+    border-bottom: 3px rgb(204, 204, 204) solid;
+    width: 409px;
+}
+
+.title-form {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.form-register {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px black;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+}
+
+.form-register {
+    text-align: center;
+}
+
+.form-register-title {
+    margin-top: 80px;
+}
+
+.form-title {
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.username-data {
+    margin-top: 60px;
+}
+
+.input-username {
+    border-style: none;
+    border-bottom: 1px grey solid;
+    padding-bottom: 3px;
+}
+
+
+.password-data {
+    margin-top: 20px;
+}
+
+input {
+    outline: 0 !important;
+}
+
+.input-password {
+    border-style: none;
+    border-bottom: 1px grey solid;
+    padding-bottom: 3px;
+}
+
+.form-forgor {
+    margin-top: 30px;
+}
+
+.forgot-password {
+    color: black;
+    text-decoration: none;
+    opacity: 0.7;
+    font-size: 20px;
+    transition: color 0.2s linear;
+}
+
+.forgot-password:hover {
+    color: rgb(155, 155, 155);
+}
+
+.form-btn {
+    margin-top: 40px;
+}
+
+.form-submit-btn {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 15px 45px ;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(2, 2, 2);
+    transition: background-color 0.2s linear;
+}
+
+.form-submit-btn:hover {
+    background-color: rgb(82, 82, 82);
+}
+
+.under-sign {
+    margin-top: 80px;
+}
+
+.under-sign-link {
+    color: black;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: color 0.2s linear;
+}
+
+.under-sign-link:hover {
+    color: rgb(170, 170, 170);
+}
+
+.section-one-title {
+    padding-top: 50px;
+}
+
+.section-one-title-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(32, 32, 32);
+    font-size: 50px;
+    font-weight: 900;
+    border-bottom: 3px rgb(204, 204, 204) solid;
+    width: 637px;
+    margin-bottom: 100px;
+}
+
+.section-one-table {
+    margin-left: 230px;
+    margin-top: 0px;
+}
+
+.section-one {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.video {
+    background-color: rgb(168, 168, 168);
+    border: solid 5px black ;
+    border-radius: 20px;
+    padding: 50px 60px ;
+    width: 900px;
+}
+
+.table {
+    margin-top: 300px;
+    margin-left: 2px;
+}
+
+.section-four-table {
+    padding-bottom: 350px;
+}
+
+.section-four-title {
+    border-top: solid 3px black ;
+    padding-top: 60px;
+}
+
+.section-four-title-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(32, 32, 32);
+    font-size: 50px;
+    font-weight: 900;
+    border-bottom: 3px rgb(204, 204, 204) solid;
+    width: 227px;
+    margin-bottom: 100px;
+}
+
+th {
+    border: solid 3px black ;
+    color: white;
+    background-color: blue;
+}
+
+td {
+    font-size: 25px;
+    border: solid 3px black ;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    padding: 20px 20px;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
